@@ -12,7 +12,7 @@ export default function DeletePostButton({ postId }) {
       });
       router.refresh();
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
   }
 
